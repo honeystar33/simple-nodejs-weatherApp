@@ -43,5 +43,5 @@ var fiveDays = await axios.get(fiveDaysUrl);
   })
 
   app.listen(PORT, function () {
-    console.log('Example app listening on port 3000!')
+    console.log(`app running on port ${PORT}`)
   })
